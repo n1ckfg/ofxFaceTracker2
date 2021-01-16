@@ -13,6 +13,12 @@
 		<ClCompile Include="src\ofApp.cpp">
 			<Filter>src</Filter>
 		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxBiquadFilter\src\ofxBiquadFilter.cpp">
+			<Filter>addons\ofxBiquadFilter\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\addons\ofxBiquadFilter\src\ofxBiquadFilterInstance.cpp">
+			<Filter>addons\ofxBiquadFilter\src</Filter>
+		</ClCompile>
 		<ClCompile Include="..\..\..\addons\ofxOpenCv\src\ofxCvColorImage.cpp">
 			<Filter>addons\ofxOpenCv\src</Filter>
 		</ClCompile>
@@ -89,6 +95,12 @@
 		</Filter>
 		<Filter Include="addons">
 			<UniqueIdentifier>{71834F65-F3A9-211E-73B8-DC85}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxBiquadFilter">
+			<UniqueIdentifier>{722AA280-224B-6677-0333-080D}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxBiquadFilter\src">
+			<UniqueIdentifier>{6A1697DC-957E-5FD0-4C2B-394F}</UniqueIdentifier>
 		</Filter>
 		<Filter Include="addons\ofxOpenCv">
 			<UniqueIdentifier>{FFA81411-43B9-BD99-75AF-1DC3}</UniqueIdentifier>
@@ -277,6 +289,12 @@
 		</ClInclude>
 		<ClInclude Include="src\ofApp.h">
 			<Filter>src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxBiquadFilter\src\ofxBiquadFilter.h">
+			<Filter>addons\ofxBiquadFilter\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\addons\ofxBiquadFilter\src\ofxBiquadFilterInstance.h">
+			<Filter>addons\ofxBiquadFilter\src</Filter>
 		</ClInclude>
 		<ClInclude Include="..\..\..\addons\ofxOpenCv\src\ofxCvBlob.h">
 			<Filter>addons\ofxOpenCv\src</Filter>

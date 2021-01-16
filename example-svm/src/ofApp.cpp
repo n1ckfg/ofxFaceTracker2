@@ -18,7 +18,7 @@ void ofApp::setup(){
 
     // All examples share data files from example-data, so setting data path to this folder
     // This is only relevant for the example apps
-    ofSetDataPathRoot(ofFile(__BASE_FILE__).getEnclosingDirectory()+"../../model/");
+    //ofSetDataPathRoot(ofFile(__BASE_FILE__).getEnclosingDirectory()+"../../model/");
     
     // Setup grabber
     grabber.setup(1280,720);
