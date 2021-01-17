@@ -273,7 +273,9 @@ void ofxFaceTracker2::drawDebug(int x, int y, int _w, int _h) const{
         
         for (auto instance : getInstances()){
             ofNoFill();
-            
+            ofSetLineWidth(3);
+            ofSetColor(ofRandom(100,163),ofRandom(100,163),255);
+
             instance.getLandmarks().getImageFeature(ofxFaceTracker2Landmarks::LEFT_EYE).draw();
             instance.getLandmarks().getImageFeature(ofxFaceTracker2Landmarks::RIGHT_EYE).draw();
             instance.getLandmarks().getImageFeature(ofxFaceTracker2Landmarks::LEFT_EYEBROW).draw();
@@ -284,6 +286,7 @@ void ofxFaceTracker2::drawDebug(int x, int y, int _w, int _h) const{
             instance.getLandmarks().getImageFeature(ofxFaceTracker2Landmarks::OUTER_MOUTH).draw();
             instance.getLandmarks().getImageFeature(ofxFaceTracker2Landmarks::JAW).draw();
             
+            /*
             auto rect = instance.getBoundingBox();
             auto p = rect.getTopLeft();
             ofSetColor(255);
@@ -294,6 +297,7 @@ void ofxFaceTracker2::drawDebug(int x, int y, int _w, int _h) const{
             ofNoFill();
             ofDrawRectangle(rect);
             ofPopStyle();
+            */
         }
         
     } ofPopStyle();
